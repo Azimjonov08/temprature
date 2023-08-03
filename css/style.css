@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+ 
+    font-family: Plus Jakarta Sans;
+    background-color: rgba(0, 0, 0, 0.877);
+
+}
+
+.box {
+    width: 334px;
+    height: 302px;
+    border-radius: 20px;
+    border-radius: 20px;
+    background: #C9E5FF;
+    box-shadow: 0px 34px 101px 0px rgba(9, 0, 63, 0.38);
+    position: absolute;
+}
+
+.box-1 {
+    position: absolute;
+    margin-right: 150px;
+    margin-bottom: 110px;
+    transform: rotate(0.508deg);
+}
+
+.box-text{
+    margin-left: 110px;
+    margin-bottom: 110px;
+    position: absolute;
+
+}
+
+.box-text p {
+    color: #658CAF;
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+
+}
+
+.box-img {
+    position: absolute;
+    margin-top: 120px;
+    align-items: center;
+}
+
+.first {
+    margin-right: 80px;
+    width: 18.725px;
+    height: 17.272px;
+    transform: rotate(0.508deg);
+    flex-shrink: 0;
+}
+
+.second {
+    margin-right: 80px;
+    width: 24px;
+    height: 24px;
+    transform: rotate(0.508deg);
+    flex-shrink: 0;
+}
+
+.third {
+    margin-right: 10px;
+    width: 15px;
+    height: 16px;
+    transform: rotate(0.508deg);
+    flex-shrink: 0;
+}
+
+.box-text-2 {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    margin-top: 180px;
+}
+
+.first-p {
+    margin-right: 65px;
+    width: 55px;
+    color: #668CAF;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.second-p {
+    margin-right: 55px;
+    width: 40px;
+    color: #668CAF;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.third-p {
+    margin-right: 10px;
+    width: 50px;
+    color: #668CAF;
+    font-family: DM Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
